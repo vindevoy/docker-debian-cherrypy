@@ -7,8 +7,8 @@ LABEL maintainer="Yves Vindevogel (vindevoy) - yves.vindevogel@asynchrone.com"
 RUN set -x && \ 
     apt-get update -y && \ 
     apt-get upgrade -y && \ 
-    apt-get install python3.7 -y && \ 
-    apt-get install python3-pip -y && \ 
+    apt-get install python3.7 --no-install-recommends -y && \ 
+    apt-get install python3-pip --no-install-recommends -y && \ 
     pip3 install cherrypy==$CHERRYPY_VERSION && \ 
     apt-get autoremove && \ 
     apt-get clean all && \ 
