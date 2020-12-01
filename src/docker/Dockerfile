@@ -16,8 +16,8 @@ LABEL maintainer="Yves Vindevogel (vindevoy) - yves.vindevogel@asynchrone.com"
 RUN apt-get update -y
 RUN apt-get upgrade -y
 
-RUN apt-get install python3.7 -y
-RUN apt-get install python3-pip -y
+RUN apt-get install python3.7 --no-install-recommends -y
+RUN apt-get install python3-pip --no-install-recommends -y
 
 RUN pip3 install cherrypy==$CHERRYPY_VERSION
 
