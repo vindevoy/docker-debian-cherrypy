@@ -1,4 +1,4 @@
-FROM vindevoy/debian10-base:latest
+FROM vindevoy/debian-base:latest
 
 ARG CHERRYPY_VERSION="18.6.0"
 
