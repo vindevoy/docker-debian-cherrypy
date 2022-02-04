@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # docker-debian10-cherrypy
 
 ## Purpose
@@ -17,3 +18,6 @@ This Docker image runs CherryPy on Debian
 - CherryPy 18.6.0
 - Debian 10.0
 - Python 3.7
+=======
+# docker-debian-cherrypy
+>>>>>>> master
