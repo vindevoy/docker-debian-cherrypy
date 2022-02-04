@@ -20,8 +20,8 @@
 # Note: the version of this image will reflect the version of CherryPy
 
 IMAGE_REPO=vindevoy
-IMAGE_NAME=debian10-cherrypy
-IMAGE_VERSION=18.6.0
+IMAGE_NAME=debian-cherrypy
+IMAGE_VERSION=18.6.1
 
 
 ######################mv

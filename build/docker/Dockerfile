@@ -1,12 +1,12 @@
-FROM vindevoy/debian-base:latest
+FROM debian:10.11-slim
 
-ARG CHERRYPY_VERSION="18.6.0"
+ARG CHERRYPY_VERSION="18.6.1"
 
 LABEL maintainer="Yves Vindevogel (vindevoy) - yves.vindevogel@asynchrone.com"
 
 RUN set -x && \ 
     apt-get update -y && \ 
-    apt-get upgrade -y && \ 
+    apt-get dist-upgrade -y && \ 
     apt-get install python3.7 --no-install-recommends -y && \ 
     apt-get install python3-pip --no-install-recommends -y && \ 
     pip3 install cherrypy==$CHERRYPY_VERSION && \ 
