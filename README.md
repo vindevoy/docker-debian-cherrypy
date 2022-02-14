@@ -6,6 +6,11 @@ This Docker image runs CherryPy on Debian
 
 ## Versions
 
+Considering the version numbers of the image are given like x.y.z-a, this means:
+
+- x.y.z: version of CherryPy
+- a: the build version of this image
+
 ### 18.6.1
 
 - CherryPy 18.6.1
